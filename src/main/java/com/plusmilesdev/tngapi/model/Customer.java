@@ -5,9 +5,15 @@ import java.util.Date;
 public class Customer {
 
 	public Customer() {
-		super();
-	}
+	}	
 	
+	public Customer(String tagid, String customername, Date createddate) {
+		super(); 
+		this.tagid = tagid; 
+		this.customername = customername;
+		this.createddate = createddate; 
+	}
+	 
 	private String tagid;
 	
 	private String customername;
